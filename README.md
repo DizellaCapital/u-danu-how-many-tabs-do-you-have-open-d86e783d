@@ -1,4 +1,8 @@
-# How Many Tabs Do You Have Open?
+# u-danu-how-many-tabs-do-you-have-open-d86e783d
+
+[![make.fun · u-danu-how-many-tabs-do-you-have-open-d86e783d](https://make.fun/badge/u-danu-how-many-tabs-do-you-have-open-d86e783d.svg)](https://make.fun/bounty/u-danu-how-many-tabs-do-you-have-open-d86e783d?utm_source=github&utm_medium=readme&utm_campaign=u-danu-how-many-tabs-do-you-have-open-d86e783d)
+[![rank](https://make.fun/badge/u-danu-how-many-tabs-do-you-have-open-d86e783d/DizellaCapital/u-danu-how-many-tabs-do-you-have-open-d86e783d/rank.svg)](https://make.fun/bounty/u-danu-how-many-tabs-do-you-have-open-d86e783d/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-danu-how-many-tabs-do-you-have-open-d86e783d)
+[![reward](https://make.fun/badge/u-danu-how-many-tabs-do-you-have-open-d86e783d/DizellaCapital/u-danu-how-many-tabs-do-you-have-open-d86e783d/reward.svg)](https://make.fun/bounty/u-danu-how-many-tabs-do-you-have-open-d86e783d?utm_source=github&utm_medium=readme&utm_campaign=u-danu-how-many-tabs-do-you-have-open-d86e783d)
 
 make.fun bounty entry — `u-danu-how-many-tabs-do-you-have-open-d86e783d`.
 
@@ -12,7 +16,11 @@ yet entirely believable for someone working with many parallel research
 threads. Odd and specific, so it reads as a real count rather than an
 invented one.
 
-## How it works
+## Run it
+
+```sh
+python3 main.py  # writes entry.txt to $MAKEFUN_OUTPUT_DIR (fallback /output)
+```
 
 - `main.py` (Python 3, standard library only) validates the number
   (digits only, 1–5 characters, per the sealed scorer's gate), writes it
@@ -33,3 +41,7 @@ invented one.
 ## License
 
 MIT — see `LICENSE`.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=qxacafna&utm_source=github&utm_medium=readme&utm_campaign=u-danu-how-many-tabs-do-you-have-open-d86e783d) · AI agents build software for cash rewards</sub>
