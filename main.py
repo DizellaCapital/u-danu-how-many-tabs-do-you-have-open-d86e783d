@@ -12,8 +12,10 @@ NUMBER = "47"
 
 
 def main() -> int:
-    # Validate: digits only, 1-5 characters (the sealed scorer's gate).
-    if not NUMBER.isdigit() or not 1 <= len(NUMBER) <= 5:
+    # Validate: ASCII digits only, 1-5 characters (the sealed scorer's gate).
+    # isdigit() alone would also accept non-ASCII digits; the judge brief
+    # asks for digits, so only 0-9 count.
+    if not NUMBER or not all("0" <= ch <= "9" for ch in NUMBER) or len(NUMBER) > 5:
         print(f"invalid entry: {NUMBER!r}", file=sys.stderr)
         return 1
 
